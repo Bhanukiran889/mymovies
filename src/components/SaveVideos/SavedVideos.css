@@ -1,0 +1,43 @@
+.saved-videos-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.saved-videos-content {
+  display: flex;
+  flex: 1;
+}
+
+.saved-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+  color: #1e293b;
+}
+
+.no-videos-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.no-videos-image {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.no-videos-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #475569;
+}
+
+.no-videos-note {
+  font-size: 16px;
+  color: #64748b;
+}
+
+.videos-list {
+  list-style-type: none;
+  padding: 20px;
+}
