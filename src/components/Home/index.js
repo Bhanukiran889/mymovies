@@ -25,7 +25,7 @@ class Home extends Component {
     isLoading: true,
     isBannerVisible: true,
     searchInput: '',
-    hasError: false, // ✅ Added to track failure state
+    hasError: false,
   }
 
   componentDidMount() {
